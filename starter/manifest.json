@@ -9,5 +9,5 @@
   "page_action": {
     "default_popup": "popup/popup.html"
   },
-  "permissions": ["tabs", "storage"] //chrome storage API
+  "permissions": ["tabs", "storage"]
 }
