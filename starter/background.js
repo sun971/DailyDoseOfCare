@@ -11,6 +11,6 @@ var pageConditions = {
 // rule for when our app can be used
 chrome.runtime.onInstalled.addListener(function () {
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function () {
-    chrome.declarativeContent.onPageChanged.addRules([]);
+    chrome.declarativeContent.onPageChanged.addRules([pageConditions]);
   });
 });
