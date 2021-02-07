@@ -24,13 +24,18 @@ Daily Dose of Care is a fun and interactive chrome extension that makes you ques
 * Completing the song generator and adding some killer hits
 * Making the adorable logo using Figma! 
 * Successfully completing the save functionality
+* Organizing all of the fitness information into a to-do list
 * Working on a project we actually see ourselves using on a daily 
 
 ## What we learned 📖
 * The importance of sharing our skills sets with one another because team work is better than riding solo
+* How to work with a chrome extension for the first time and how to organize all of our important information onto a single popup
+* A great way to find a bug is to put our heads together and get a fresh set of eyes on the code
+* For one of us it was our first time using Figma and it was very useful to learn how to create mockups for reference throughout the project
 
 
 ## What's next for Daily Dose of Care 💯
 * Allowing friends to easily share they're entries with friends 
 * Allowing users to view previously saved entries 
+* Based on user input to be able to send notifications to remind them to take care of themselves or to lift their mood (ex. If they forget to drink enough water send a notification, if they are sad to redirect to a song of the day)
 * Maybe adding a dark mode option 
