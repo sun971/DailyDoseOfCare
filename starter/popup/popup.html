@@ -10,10 +10,10 @@
   <body>
     <div id="notes-container">
       <button class="button button1">Dose of Care </button>
-      <ul id="notes"></ul>
+      
     </div>
     <div class="container">
-      </br>
+
       <hr>
       <p1>Fitness Tracker  
       <!--<img src="img/calendar.png" alt="calendar" class="calendarCenter"width="200" height="200"></a>-->
@@ -26,11 +26,30 @@
                   <li>HIIT</li>
                   <li>Rest</li>
               </ul>
-              
+              <script src="popup.js"></script>
           </div>
       </p1>
       <hr>
-      <p2>Mood Board</p2>
+        <p2>Mood Board </p2>
+        <hr>
+           <h>Choose the mood that best describes your day: <h>
+          <div class="radio-toolbar">
+
+              <input type="radio" id="radioHappy" name="radioMood" value="Happy">
+              <label for="radioHappy">Happy</label>
+
+              <input type="radio" id="radioProductive" name="radioMood" value="Productive">
+              <label for="radioProductive">Productive</label>
+
+              <input type="radio" id="radioStressed" name="radioMood" value="Stressed">
+              <label for="radioStressed">Stressed</label>
+
+              <input type="radio" id="radioSad" name="radioMood" value="Sad">
+              <label for="radioSad">Sad</label>
+
+              <input type="radio" id="radioTired" name="radioMood" value="Tired">
+              <label for="radioTired">Tired</label>
+          </div>
       <hr>
       <h>How was your day?<h>
       <textarea id="entryMood" name="entryMood" rows="4" cols="40"></textarea>
@@ -53,7 +72,7 @@
       <button type="button" id="viewPast"> View Past Entry</button><br>
       <input type="button" id="btnOpenNewTab" value="Song of the Day"/>
 
-      <script src="fitness.js"></script>
+      <script src="popup.js"></script>
     </div>
   </body>
 </html>
