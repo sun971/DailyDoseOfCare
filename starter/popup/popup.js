@@ -30,4 +30,12 @@ saveNote.onclick = function () {
         var newURL = "https://open.spotify.com/track/4hObp5bmIJ3PP3cKA9K9GY?si=aH5aIXwgQzeHNlowBqIUGA";
         chrome.tabs.create({ url: newURL });
     });
-});
+  });
+
+  // Add a "checked" symbol when clicking on a list item
+  var list = document.querySelector('ul');
+  list.addEventListener('click', function (ev) {
+      if (ev.target.tagName === 'LI') {
+          ev.target.classList.toggle('checked');
+      }
+  }, false);
