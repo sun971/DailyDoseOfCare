@@ -1,7 +1,7 @@
 {
   "name": "Daily Dose of Care",
   "version": "0.0.1",
-  "description": "Simple self care extension to keep you on track <3",
+  "description": "Simple self care extension to keep you on track ❤️",
   "manifest_version": 2,
   "background": {
     "persistent": false,

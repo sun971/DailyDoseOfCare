@@ -15,8 +15,9 @@ chrome.runtime.onInstalled.addListener(function () {
   });
 });
 
+//Future Google Calendar 
 chrome.identity.getAuthToken({ 'interactive': true }, function(token) {
-  // Use the token.
+  
 });
 
 
