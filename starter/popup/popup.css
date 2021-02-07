@@ -25,3 +25,9 @@ body {
   text-align: center;
   color: #faf6f6;
 }
+.calendarCenter{
+  display: block;
+  margin-left: 200;
+  margin-right: 300;
+  align-content: center;
+}

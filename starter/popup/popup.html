@@ -22,7 +22,7 @@
       <p2>Mood Board</p2>
       <hr>
       <h>How was your day?<h>
-      <textarea id="entryMood" name="entry" rows="4" cols="40"></textarea>
+      <textarea id="entryMood" name="entryMood" rows="4" cols="40"></textarea>
       <hr>
       <p3>Wellness</p3>
       <hr>
@@ -30,7 +30,7 @@
       <textarea id="entry" name="entry" rows="4" cols="40"></textarea>
       <h>Who did you spend time with today<h>
         <textarea id="entryTime" name="entryTime" rows="4" cols="40"></textarea>
-        <h>Hours of sleep<h>
+        <h id="quote">Hours of sleep<h>
           <textarea id="entrySleep" name="entrySleep" rows="4" cols="40"></textarea>
           <h>How many glasses of water did you drink?<h>
           <textarea id="entryWater" name="entryWater" rows="4" cols="40"></textarea>
@@ -38,9 +38,9 @@
 
 
       <hr>
-      <button type="button" id="saveEntry">Save</button>
-      <button> View Past Entry</button>
-      <button>Song of Day</button>
+      <button type="button" id="save-note">Save</button>
+      <button type="button" id="viewPast"> View Past Entry</button><br>
+      <input type="button" id="btnOpenNewTab" value="Song of the Day"/>
 
       <script src="popup.js"></script>
     </div>
