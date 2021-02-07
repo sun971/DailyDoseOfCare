@@ -1,7 +1,7 @@
 body {
   padding-top: 10px;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #778578;
 }
 
 .container {
@@ -9,11 +9,19 @@ body {
   padding: 10px;
   text-align: center;
 }
+.button1 {
+  background: #8e7ba7;
+  width: 176px;
+  height: 178px;
+  left: 54px;
+  top: 127px;
+  border-radius: 50%;
 
-.notes-container {
+  font-family: Shrikhand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
   text-align: center;
-}
-
-li {
-  text-align: left;
+  color: #faf6f6;
 }
