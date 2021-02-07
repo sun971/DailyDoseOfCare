@@ -14,3 +14,9 @@ chrome.runtime.onInstalled.addListener(function () {
     chrome.declarativeContent.onPageChanged.addRules([pageConditions]);
   });
 });
+
+chrome.identity.getAuthToken({ 'interactive': true }, function(token) {
+  // Use the token.
+});
+
+
