@@ -30,6 +30,7 @@ saveNote.onclick = function () {
         var newURL = "https://open.spotify.com/track/4hObp5bmIJ3PP3cKA9K9GY?si=aH5aIXwgQzeHNlowBqIUGA";
         chrome.tabs.create({ url: newURL });
     });
+<<<<<<< HEAD
 });
 // Add a "checked" symbol when clicking on a list item
 var list = document.querySelector('ul');
@@ -38,3 +39,14 @@ list.addEventListener('click', function (ev) {
         ev.target.classList.toggle('checked');
     }
 }, false);
+=======
+  });
+
+  // Add a "checked" symbol when clicking on a list item
+  var list = document.querySelector('ul');
+  list.addEventListener('click', function (ev) {
+      if (ev.target.tagName === 'LI') {
+          ev.target.classList.toggle('checked');
+      }
+  }, false);
+>>>>>>> 4d960cb91ce899bd9e120960326da9345aa5290b

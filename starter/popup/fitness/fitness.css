@@ -14,7 +14,7 @@ ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: #eee;
+  background: #D096EC;
   font-size: 18px;
   transition: 0.2s;
 
@@ -27,17 +27,17 @@ ul li {
 
 /* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
-  background: #f9f9f9;
+  background: #DC9EFA;
 }
 
 /* Darker background-color on hover */
 ul li:hover {
-  background: #ddd;
+  background: #C0A8CB;
 }
 
 /* When clicked on, add a background color and strike out text */
 ul li.checked {
-  background: #888;
+  background: #8E7BA7;
   color: #fff;
   text-decoration: line-through;
 }
@@ -56,24 +56,12 @@ ul li.checked::before {
   width: 7px;
 }
 
-/* Style the close button */
-.close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
-}
-
-.close:hover {
-  background-color: #f44336;
-  color: white;
-}
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  /*background-color: #f44336;*/
   padding: 30px 40px;
-  color: white;
+  color: black;
   text-align: center;
 }
 
