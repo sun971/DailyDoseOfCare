@@ -39,3 +39,12 @@ Daily Dose of Care is a fun and interactive chrome extension that makes you ques
 * Allowing users to view previously saved entries 
 * Based on user input to be able to send notifications to remind them to take care of themselves or to lift their mood (ex. If they forget to drink enough water send a notification, if they are sad to redirect to a song of the day)
 * Maybe adding a dark mode option 
+
+For more details check out : https://devpost.com/software/daily-dose-of-care?ref_content=user-portfolio&ref_feature=in_progress
+How to download the extension?
+
+Step "0": Unzip the ZIP archive into a folder e. g. "c:\my-old-kantu"
+
+Step 1: Open the Chrome extension page and turn on "Developer mode"
+
+Step 2: Select "Load Unpacked" (extension) and point it to the extension folder - and you are done!
